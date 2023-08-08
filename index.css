@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-color: #3c414a;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+
+div {
+    display: flex;
+    padding: .5rem;
+    padding-top: 1rem;
+}
+
+button {
+    margin-left: .5rem;
+} 
+
+p {
+    font-size: 3rem;
+}
