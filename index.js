@@ -1,7 +1,7 @@
 const clear = document.querySelector("#clear");
 const p = document.querySelector("p");
 const input = document.querySelector("input");
-clear.addEventListener("click", ()=>{p.innerHTML = ""; input.value = null;})
+clear.addEventListener("click", ()=>{p.innerText = ""; input.value = null;})
 input.addEventListener("keypress", (event)=>{if (event.key === "Enter"){fizzbuzz(); input.value = null;}})
 
 function fizzbuzz (){
